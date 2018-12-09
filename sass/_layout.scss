@@ -1,16 +1,21 @@
 .container {
-    max-width: 120rem; //1200px - if screen not big enough it will be at 100%
+    max-width: 100rem; 
+    //1200px - if screen not big enough it will be at 100%
     margin: 8rem auto;
     background-color: var(--color-grey-light-1);
     box-shadow: var(--shadow-dark);
     
-    min-height: 50rem;
+    // min-height: 50rem;
 }
 
 .header {
+    font-size: 1.4rem;
     height: 7rem;
     background: #fff;
-    border-bottom: var(--color-grey-light-2)
+    border-bottom: var(--color-grey-light-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
